@@ -6,7 +6,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "your-s3-bucket-name"
+    bucket         = "my-test-s3-bukcet"
     key            = "terraform/state"
     region         = "us-east-1"
     encrypt        = true
